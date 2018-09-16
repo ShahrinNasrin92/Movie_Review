@@ -1,0 +1,76 @@
+@charset "utf-8";
+#navbar-home li a{
+	border-color:#f2f2f2;
+	font-family: 'Lobster', cursive;
+	font-size: 16px;
+	color:#595959;
+}
+#navbar-home li a:hover{
+	color: #f2f2f2;
+	/*background-color:#f2f2f2;*/
+}
+
+body{
+	background: #fff;
+}
+
+.header{
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+.header h1{
+    /*font-family: 'Oswald', sans-serif;*/
+	font-family: 'Lobster', cursive;
+	font-size: 23px;
+	margin-bottom: 10px;
+	color:#595959;
+}
+
+.header #para{
+	font-size: 14px;
+	font-family: 'Old Standard TT', serif;
+}
+
+#navbrand{
+	font-family: 'Parisienne', cursive;
+	color:#002B2B;
+	font-size: 30px;
+}
+
+.searchinput{
+	width:100%;
+	height: 150px;
+	background-color: #f9f9f9;
+	padding-top:50px;
+	margin-bottom: 50px;
+}
+
+.custom-search-form{
+	margin: 0 15% 0 15%;
+}
+
+#topquestion{
+	margin: 0 0 0 40px;
+	font-size: 19px;
+	font-family: 'Lobster', cursive;
+	color:#595959;
+}
+
+.footer{
+	width:100%;
+	height: 50px;
+	background-color: #f9f9f9;
+	padding-top:20px;
+	text-align: center;
+	color: #999999;
+}
+
+#message{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+

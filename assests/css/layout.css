@@ -1,0 +1,20 @@
+
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+	font-family: 'Titillium Web', sans-serif;
+}
+body{
+	background:#f2f2f2;
+	padding:90px 0;
+	background-attachment:fixed;
+}
+.text-white,
+.text-white *{
+	color:#FFF;
+}
+.block{
+	display:block;
+	width:100%;
+}

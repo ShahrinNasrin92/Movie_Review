@@ -1,0 +1,154 @@
+
+
+
+/*===============================================================
+	Text Input
+=================================================================*/
+.facile-text{
+	border:solid 1px #CCC;
+	border-radius:2px;
+	height:auto;
+	padding:9px 12px;
+	width:100%;
+	display:block;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	transition:all .3s ease;
+}
+textarea.facile-text{
+	resize:vertical;
+}
+.facile-text,
+.form-group .facile-text,
+.form-group .facile-text:focus,
+.facile-text:focus,
+.input-group.facile-group .input-group-addon,
+select{
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+}
+.facile-text:focus{
+	border-color:#3498db;
+}
+.input-group.facile-group .facile-text{
+	border-radius: 0 2px 2px 0;
+}
+.input-group.facile-group .input-group-addon{
+	background:#F0F0F0;
+	border-color:#CCC;
+	border-radius:2px 0 0 2px;
+}
+
+.form-group.has-success .facile-text{
+	border-color:#2ecc71;
+	background:rgba(46, 204, 113, .02);
+}
+
+
+
+/*===============================================================
+	Buttons
+=================================================================*/
+.facile-btn{
+	padding:10px 11px;
+	background:#70a9a9;
+	color:#FFF;
+	border:none;
+	position:relative;
+	top:0;
+	font-size:14px;
+	border-radius:2px;
+	-webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,.07);
+	-moz-box-shadow: 0 2px 0 0 rgba(0,0,0,.07);
+	box-shadow: 0 2px 0 0 rgba(0,0,0,.07);
+}
+
+
+
+
+/*.facile-btn .btn-success{
+	background:#2ecc71;
+}
+*/
+
+
+
+
+
+/*===============================================================
+	Form Styling
+=================================================================*/
+.form{
+	padding:30px;
+	/*padding-bottom:20px;*/
+	background:#FFF;
+	/*border-radius:3px;*/
+	margin:auto;
+	max-width:530px;
+}
+.form-group{
+	margin-bottom:20px;
+}
+.form p{
+	margin:0;
+}
+.form.large-form{
+	max-width:600px;
+}
+.form .header *{
+	margin:0;
+	font-weight:600;
+}
+.form .header{
+	margin:-30px;
+	padding:30px;
+	margin-bottom:10px;
+	/*background:#437070;*/
+	color: #000000;
+	text-align:center;
+	font-family: 'Parisienne', cursive;
+	/*border-radius:3px 3px 0 0;*/
+}
+.space{
+	display:block;
+	clear:both;
+	height:30px;
+}
+.form .header h3{
+	font-size:30px;
+	font-weight:400;
+}
+.form .row p{
+	line-height:1em;
+	margin-top:4px;
+	font-size:16px;
+}
+.form .row{
+	margin:0 -10px;
+}
+.form .row > div{
+	padding:0 10px;
+}
+.row.form-group{
+	margin-bottom:0;
+}
+
+.header p{
+	padding:5px 0px;
+}
+
+.profile_heading{
+	margin:-30px;
+	padding:30px;
+	margin-bottom:10px;
+	/*background:#437070;*/
+	color: #000000;
+	text-align:center;
+	font-family: 'Parisienne', cursive;
+}
+.profile_heading h3{
+	font-size:30px;
+	font-weight:400;
+}
+
